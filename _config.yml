@@ -1,0 +1,18 @@
+title: AI 데일리 브리핑
+description: 멀티에이전트 파이프라인(리서처→작가→편집자)이 매일 자동으로 작성하는 AI/개발 트렌드 요약
+theme: minima
+lang: ko
+timezone: Asia/Seoul
+url: "https://cratvsj-commits.github.io"
+baseurl: "/ai-daily-brief"
+permalink: /:year/:month/:day/:title/
+
+minima:
+  date_format: "%Y-%m-%d"
+
+exclude:
+  - .claude/
+  - memory/
+  - scratch/
+  - CLAUDE.md
+  - README.md
